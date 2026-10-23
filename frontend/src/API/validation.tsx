@@ -1,8 +1,8 @@
 
-import {ROOM_OBJECT_SET} from "../types"
+import {ROOM_OBJECT_SET, type Room} from "../types"
 
 
-export const validateRoom = (room: unknown): boolean => 
+export const validateRoom = (room: unknown): room is Room => 
     {
 
     if (!Array.isArray(room))
