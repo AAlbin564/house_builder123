@@ -5,7 +5,7 @@ import type {Room} from "../types";
 
 
 
-function Room(roomLayout: Room) {
+function RoomScreen(roomLayout: Room) {
 
 return (
     <p>
@@ -14,3 +14,5 @@ return (
 )
 }
 
+
+export default RoomScreen
